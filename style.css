@@ -28,14 +28,18 @@ a:active{
 }
 .list{
     list-style-type: square;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 .list1{
-    list-style-image: url();
+    list-style-image: url(check-solid-svg.png);
     list-style-type: lower-greek;
 }
+.list2{
+    list-style-type: lower-greek;
+    background-color: crimson;
+}
 li{
-    background-color: burlywood;
+    background-color: bisque;
     padding: 5px;
     margin: 2px;
 }
